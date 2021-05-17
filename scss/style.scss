@@ -109,6 +109,7 @@
     .textoHome {
         padding: 50px 35px 0px 35px;
         width: 50%;
+        margin-left: 80px;
     }
 
     .tituloHome {
@@ -163,9 +164,13 @@
 .tituloDePagina {
     font-family: 'Cormorant Garamond', serif;
     color: white;
-    font-size: 15vw;
+    font-size: 10vw;
     overflow: hidden;
     z-index: -1;
+}
+
+.margenes {
+    margin: 5%;
 }
 
 .img {
@@ -187,7 +192,8 @@
 }
 
 .dimensionesHome {
-    height: 700px;
+    height: 87vh;
+    margin: 0;
 }
 
 .tituloHome {
