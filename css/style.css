@@ -28,7 +28,7 @@
     padding-left: 10px;
     padding-right: 10px;
   }
-  .imgNosotros {
+  .contentNos__img {
     display: none;
   }
   .titleServicios {
@@ -200,6 +200,7 @@
 .contentNos__txt {
   font-family: "Montserrat", sans-serif;
   color: black;
+  margin-bottom: 150px;
 }
 
 /*Cuerpo Servicios*/
@@ -326,6 +327,7 @@ form input {
   font-size: 16 pt;
   font-family: "Montserrat", sans-serif;
   font-style: bold;
+  margin-bottom: 20px;
 }
 
 .botonForm {
@@ -349,12 +351,14 @@ form textarea {
   font-size: 16 pt;
   font-family: "Montserrat", sans-serif;
   font-style: bold;
+  margin-bottom: 20px;
 }
 
 form div select {
   font-size: 16 pt;
   font-family: "Montserrat", sans-serif;
   font-style: bold;
+  margin-bottom: 20px;
 }
 
 .form {
@@ -368,11 +372,11 @@ form div select {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 25px 25% 25px 25px;
+  padding: 0px 15% 0px 25px;
 }
 
 .imgContacto {
-  height: 500px;
+  height: 530px;
   overflow: hidden;
   margin-bottom: 10px;
 }

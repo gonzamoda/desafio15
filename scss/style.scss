@@ -37,8 +37,8 @@
         padding-right: 10px;
     }
 
-    .imgNosotros {
-        display: none;
+    .contentNos__img {
+        display: none;      
     }
 
     .titleServicios {
@@ -236,6 +236,7 @@
 .contentNos__txt {
     font-family: $sansSerif;
     color: $negro;
+    margin-bottom: 150px;
 }
 
 
@@ -340,6 +341,7 @@ form input {
     font-size: 16 pt;
     font-family: $sansSerif;
     font-style: bold;
+    margin-bottom: 20px;
 }
 
 .botonForm {
@@ -363,23 +365,25 @@ form textarea {
     font-size: 16 pt;
     font-family: $sansSerif;
     font-style: bold;
+    margin-bottom: 20px;
 }
 
 form div select {
     font-size: 16 pt;
     font-family: $sansSerif;
     font-style: bold;
+    margin-bottom: 20px;
 }
 
 .form {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 25px 25% 25px 25px;
+    padding: 0px 15% 0px 25px;
 }
 
 .imgContacto {
-    height: 500px;
+    height: 530px;
     overflow: hidden;
     margin-bottom: 10px;
 }
