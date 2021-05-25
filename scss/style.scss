@@ -157,6 +157,10 @@
     width: 100%;
 }
 
+.logo {
+    height: 50px;
+}
+
 
 /*Características general*/
 /*Atributos que se asignan en más de una página*/
@@ -359,6 +363,7 @@ form input {
 
 .botonForm:hover {
     background-color: $amarillo;
+    transition: 0.5s;
 }
 
 form textarea {
@@ -393,10 +398,44 @@ form div select {
 
 footer {
     background-color: $negro;
-    color: $blanco;
+    color: $gris;
     font-family: $sansSerif;
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
-    padding-top: 12px;
-    height: 45px;
+    height: 60px;
+    align-items: center;
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icons {
+    height: 25px;
+    margin: 10px;
+}
+
+.logoLli:hover {
+    content: url(../images/logoLli.svg);
+}
+
+.iconoInstagram:hover {
+    content: url(../images/iconoInstagram.svg);
+}
+
+.iconoMail:hover {
+    content: url(../images/iconoMail.svg);
+}
+
+.designedBy {
+    color: $gris;
+    text-decoration: none;
+}
+
+.designedBy:hover {
+    color: $blanco;
+    text-decoration: none;
 }

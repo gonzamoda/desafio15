@@ -122,6 +122,10 @@
   width: 100%;
 }
 
+.logo {
+  height: 50px;
+}
+
 /*Características general*/
 /*Atributos que se asignan en más de una página*/
 .tituloDePagina {
@@ -345,6 +349,8 @@ form input {
 
 .botonForm:hover {
   background-color: #fba01d;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 form textarea {
@@ -384,11 +390,53 @@ form div select {
 /*Footer*/
 footer {
   background-color: black;
-  color: white;
+  color: #505050;
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   text-align: center;
-  padding-top: 12px;
-  height: 45px;
+  height: 60px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.icons {
+  height: 25px;
+  margin: 10px;
+}
+
+.logoLli:hover {
+  content: url(../images/logoLli.svg);
+}
+
+.iconoInstagram:hover {
+  content: url(../images/iconoInstagram.svg);
+}
+
+.iconoMail:hover {
+  content: url(../images/iconoMail.svg);
+}
+
+.designedBy {
+  color: #505050;
+  text-decoration: none;
+}
+
+.designedBy:hover {
+  color: white;
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
