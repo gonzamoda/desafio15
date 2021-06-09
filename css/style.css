@@ -31,6 +31,9 @@
   .contentNos__img {
     display: none;
   }
+  .marginBottom {
+    margin-bottom: 150px;
+  }
   .titleServicios {
     height: 200px;
   }
