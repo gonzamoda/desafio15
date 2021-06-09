@@ -23,7 +23,7 @@
   .titleNosotros {
     height: 200px;
   }
-  .parrafoNosotros {
+  .contentNos__txt {
     font-size: 16px;
     padding-left: 10px;
     padding-right: 10px;
@@ -62,7 +62,7 @@
   .titleNosotros {
     height: 300px;
   }
-  .parrafoNosotros {
+  .contentNos__txt {
     font-size: 16px;
     padding-left: 10px;
     padding-right: 12px;
@@ -96,7 +96,7 @@
   .titleNosotros {
     height: 400px;
   }
-  .parrafoNosotros {
+  .contentNos__txt {
     font-size: 20px;
     padding-left: 25px;
     padding-right: 200px;
@@ -197,14 +197,13 @@
 
 .contentNos__img {
   overflow: hidden;
-  height: 500px;
+  height: 400px;
   margin-bottom: 10px;
 }
 
 .contentNos__txt {
   font-family: "Montserrat", sans-serif;
   color: black;
-  margin-bottom: 150px;
 }
 
 /*Cuerpo Servicios*/
